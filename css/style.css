@@ -173,6 +173,7 @@ color: var(--primary-text-color);
 
 .addr {
     font-weight: normal;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     color:var(--hero-text-color)
