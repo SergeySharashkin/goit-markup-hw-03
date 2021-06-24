@@ -22,6 +22,8 @@ body {
 }
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .accent { 
@@ -85,9 +87,21 @@ color: var(--primary-text-color);
     color: var(--accent-color)
 }
 .hero {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 1600px;
+    height: 600px;
+    margin-bottom: 0;
     background-color: var(--hero-bgr-color);
 }
 .hero-tittle {
+    margin-bottom: 30px;
+    padding-left: 452px;
+    padding-right: 452px;
+    padding-top: 200px;
+    padding-bottom: 30px;
+
     color: var(--hero-text-color);
     font-style: normal;
     font-weight: 900;
@@ -97,12 +111,11 @@ color: var(--primary-text-color);
     letter-spacing: 0.06em;
 }
 .button {
-
-    
     font-style: normal;
     align-items: center;
     font-family: inherit;
     cursor: pointer;
+    text-align: center;
 }
 .button-prim {    
     color: var(--hero-text-color);
@@ -113,6 +126,11 @@ color: var(--primary-text-color);
     text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--accent-color);
+    
+    border-radius: 4px;
+    padding: 10px 32px;
+    display: inline-block;
+    border: 1px solid transparent;
 }
 .button-sec {
     color: var(--primary-text-color);
@@ -120,23 +138,34 @@ color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.62;
     background-color: var(--button-bgr-color);
+
+    border-radius: 4px;
+    padding: 6px 22px;
+    display: inline-block;
 }
 .button-sec:focus,
 .button-sec:hover{
     background-color:var(--accent-color);
     color: var(--hero-text-color);
 }
+.container {
+    margin: 215px;
+    text-align: center;
+}
 .features-item {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
+    text-align: left;
+    margin-bottom: 10;
 }
 .features-description {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     color: var(--tittle-text-color);
+    text-align: left;
 }
 .occupation {
     font-style: normal;
