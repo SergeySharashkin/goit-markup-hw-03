@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 :root {
     --primary-text-color: #212121;
     --tittle-text-color: #757575;
@@ -10,6 +18,7 @@ body {
     color: var( --primary-text-color);
     font-family: Roboto;
     letter-spacing: 0.03em;
+    margin: 0 auto;
 }
 .list {
     list-style: none;
