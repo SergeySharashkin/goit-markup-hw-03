@@ -1,11 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 :root {
   --primary-text-color: #212121;
   --tittle-text-color: #757575;
@@ -14,34 +6,15 @@ html {
   --hero-bgr-color: #2f303a;
   --button-bgr-color: #f5f4fa;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {margin-top: 0;
-    margin-bottom: 0;
-}
+
 body {
   color: var(--primary-text-color);
   font-family: Roboto;
   letter-spacing: 0.03em;
-  margin: 0 auto;
-}
-.head>nav {
-    display: flex;
-    justify-content: space-between;
-    border: 0px 1px 0px 0px solid transparent;
-}
-.section {
-    padding: 94px 0;
 }
 .list {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
-
 .accent {
   color: var(--accent-color);
 }
@@ -103,37 +76,29 @@ body {
   color: var(--accent-color);
 }
 .hero {
-  padding-top: 200px;
-  text-align: center;
   width: 1600px;
   height: 600px;
   background-color: var(--hero-bgr-color);
 }
 .hero-tittle {
-  margin-bottom: 30px;
   color: var(--hero-text-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform:uppercase;
 }
 .button {
   font-style: normal;
-  align-items: center;
   font-family: inherit;
   cursor: pointer;
-  text-align: center;
 }
 .button-prim {
   color: var(--hero-text-color);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
 
@@ -148,27 +113,17 @@ body {
   font-size: 16px;
   line-height: 1.62;
   background-color: var(--button-bgr-color);
-
-  border-radius: 4px;
-  padding: 6px 22px;
-  display: inline-block;
 }
 .button-sec:focus,
 .button-sec:hover {
   background-color: var(--accent-color);
   color: var(--hero-text-color);
 }
-.container {
-  margin: 0;
-  text-align: center;
-}
 .features-item {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  text-align: left;
-  margin-bottom: 10;
   text-transform:uppercase;
 }
 .features-description {
@@ -176,39 +131,31 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--tittle-text-color);
-  text-align: left;
-  margin: 0;
 }
 .occupation {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 94px;
-  margin-bottom: 50px;
 }
 .team-tittle {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
 }
 .team-occupation {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
 .team-member {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
 .foot {
   background-color: var(--hero-bgr-color);
@@ -229,6 +176,29 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--hero-text-color);
+}
+
+.addr .mail {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.addr .tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.addr .mail:hover,
+.addr .mail:focus {
+  color: var(--accent-color);
+}
+.addr .tel:hover,
+.addr .tel:focus {
+  color: var(--accent-color);
 }
 
 /*Portfolio style*/
