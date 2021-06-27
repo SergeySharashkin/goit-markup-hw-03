@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 :root {
   --primary-text-color: #212121;
   --tittle-text-color: #757575;
@@ -12,8 +20,38 @@ body {
   font-family: Roboto;
   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+.section {
+  padding: 94px 0;
+}
+.head {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 25px;
+  margin: 0 auto;
+}
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .accent {
   color: var(--accent-color);
@@ -79,6 +117,11 @@ body {
   width: 1600px;
   height: 600px;
   background-color: var(--hero-bgr-color);
+
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0;
 }
 .hero-tittle {
   color: var(--hero-text-color);
@@ -87,12 +130,19 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-transform:uppercase;
+  text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .button {
   font-style: normal;
   font-family: inherit;
   cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  padding-bottom: 0;
 }
 .button-prim {
   color: var(--hero-text-color);
@@ -101,11 +151,10 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
-
-  border-radius: 4px;
-  padding: 10px 32px;
-  display: inline-block;
+  min-width: 200px;
   border: 1px solid transparent;
+
+  padding: 10px 32px;
 }
 .button-sec {
   color: var(--primary-text-color);
@@ -113,24 +162,31 @@ body {
   font-size: 16px;
   line-height: 1.62;
   background-color: var(--button-bgr-color);
+  min-width: 83px;
 }
 .button-sec:focus,
 .button-sec:hover {
   background-color: var(--accent-color);
   color: var(--hero-text-color);
 }
+
 .features-item {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  text-transform:uppercase;
+  text-transform: uppercase;
+
+  text-align: left;
+  margin-bottom: 10px;
 }
 .features-description {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--tittle-text-color);
+
+  text-align: left;
 }
 .occupation {
   font-style: normal;
@@ -138,12 +194,16 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
 }
 .team-tittle {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
+
+  margin-bottom: 50px;
 }
 .team-occupation {
   font-style: normal;
@@ -151,11 +211,16 @@ body {
   font-size: 16px;
   line-height: 1.19;
 }
+.team-foto {
+  margin-top: 30px;
+}
 .team-member {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+
+  margin-top: 10px;
 }
 .foot {
   background-color: var(--hero-bgr-color);
@@ -204,6 +269,7 @@ body {
 /*Portfolio style*/
 .work-list a {
   text-decoration: none;
+  color: var(--primary-text-color)
 }
 .work-item {
   font-style: normal;
