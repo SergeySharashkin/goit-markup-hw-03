@@ -42,11 +42,9 @@ p {
   margin: 0 auto;
 
   text-align: center;
-
-  display: flex;
 }
 .section {
-  padding: 94px 0;
+  padding-top: 94px;
 }
 .head {
   width: 1230px;
@@ -143,15 +141,21 @@ p {
 .contacts .tel:focus {
   color: var(--accent-color);
 }
+.hero-container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
 .hero {
   width: 1600px;
-  height: 600px;
   background-color: var(--hero-bgr-color);
 
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin: 0;
+
 }
 .hero-tittle {
   color: var(--hero-text-color);
@@ -199,6 +203,9 @@ p {
   background-color: var(--accent-color);
   color: var(--hero-text-color);
 }
+.features {
+  display: none;
+}
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -239,9 +246,6 @@ p {
   text-align: center;
   padding: 0;
 
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
   margin-bottom: 50px;
 }
 .occupation-list {
@@ -263,6 +267,7 @@ p {
 
 .foto {
   display: block;
+  margin-top: 0;
 }
 .team-tittle {
   font-style: normal;
@@ -271,6 +276,21 @@ p {
   line-height: 1.17;
 
   margin-bottom: 50px;
+  text-align: center;
+}
+.team-list {
+  display: flex;
+
+  padding: 0;
+}
+.team-list:last-child {
+  margin-right: 0px;
+}
+.team-form {
+  margin-right: 30px;
+}
+.team-form:last-child {
+  margin-right: 0px;
 }
 .team-occupation {
   font-style: normal;
@@ -287,10 +307,19 @@ p {
   font-size: 16px;
   line-height: 1.19;
 
-  margin-top: 10px;
+  margin-top: 29.95px;
+}
+.team-occupation {
+  margin-top: 9.98px;
 }
 .foot {
   background-color: var(--hero-bgr-color);
+  width: 1600px;
+  padding-left: 215px;
+  padding-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
 }
 .logo-foot {
   color: var(--hero-text-color);
@@ -300,6 +329,9 @@ p {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  text-align: left;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .addr {
@@ -308,6 +340,8 @@ p {
   font-size: 14px;
   line-height: 1.71;
   color: var(--hero-text-color);
+  text-align: left;
+  margin-bottom: 9px;
 }
 
 .addr .mail {
@@ -316,6 +350,9 @@ p {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.02em;
+  text-align: left;
+
+  margin-bottom: 9px;
 }
 .addr .tel {
   color: rgba(255, 255, 255, 0.6);
@@ -323,6 +360,9 @@ p {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.02em;
+  text-align: left;
+
+  margin-bottom: 9px;
 }
 .addr .mail:hover,
 .addr .mail:focus {
