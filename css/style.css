@@ -62,7 +62,6 @@ p {
   color: var(--primary-text-color);
   text-decoration: none;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -77,7 +76,6 @@ p {
 .site-nav {
   color: var(--primary-text-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -119,7 +117,6 @@ p {
 .contacts .mail {
   color: var(--tittle-text-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -128,7 +125,6 @@ p {
 .contacts .tel {
   color: var(--tittle-text-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -159,7 +155,6 @@ p {
 }
 .hero-tittle {
   color: var(--hero-text-color);
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -170,7 +165,6 @@ p {
   margin-bottom: 30px;
 }
 .button {
-  font-style: normal;
   font-family: inherit;
   cursor: pointer;
   display: inline-block;
@@ -222,7 +216,6 @@ p {
   margin-right: 0;
 }
 .features-item {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -242,7 +235,6 @@ p {
   text-align: left;
 }
 .occupation {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -277,7 +269,6 @@ p {
   background-color: var(--button-bgr-color);
 }
 .team-tittle {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -300,7 +291,6 @@ p {
   margin-right: 0px;
 }
 .team-occupation {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -309,7 +299,6 @@ p {
   margin-top: 30px;
 }
 .team-member {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -330,7 +319,6 @@ p {
 .logo-foot {
   color: var(--hero-text-color);
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -356,7 +344,6 @@ p {
 .addr .mail {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  font-style: normal;
   font-weight: 400;
   letter-spacing: 0.02em;
   text-align: left;
@@ -367,7 +354,6 @@ p {
 .addr .tel {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  font-style: normal;
   font-weight: 400;
   letter-spacing: 0.02em;
   text-align: left;
@@ -413,7 +399,6 @@ p {
   color: var(--primary-text-color);
 }
 .work-item {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
