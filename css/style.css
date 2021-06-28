@@ -273,6 +273,9 @@ p {
   display: block;
   margin-top: 0;
 }
+.team {
+  background-color: var(--button-bgr-color);
+}
 .team-tittle {
   font-style: normal;
   font-weight: bold;
