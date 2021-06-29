@@ -264,14 +264,10 @@ img {
 .occupation-form {
   display: flex;
   margin-right: 30px;
+  width: 370px;
 }
 .occupation-form:last-child {
   margin-right: 0px;
-}
-
-.foto {
-  display: block;
-  margin-top: 0;
 }
 .team {
   background-color: var(--button-bgr-color);
@@ -294,6 +290,7 @@ img {
 }
 .team-form {
   margin-right: 30px;
+  width: 270px;
 }
 .team-form:last-child {
   margin-right: 0px;
@@ -315,7 +312,7 @@ img {
 }
 .team-container {
   padding-top: 29.95px;
-  padding-bottom: 29.95;
+  padding-bottom: 29.95px;
 }
 /*Footer*/
 .foot {
@@ -330,7 +327,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  text-align: left;
   display: flex;
   margin-bottom: 20px;
 }
@@ -373,7 +369,6 @@ img {
 /*Portfolio style*/
 
 .portfolio-choice {
-  text-align: center;
   font-weight: 500;
   padding-bottom: 16px;
 }
@@ -412,6 +407,7 @@ img {
   text-align: left;
   margin-right: 30px;
   margin-bottom: 30px;
+  width: 370px;
 }
 .work-form:nth-last-child(3n + 1) {
   text-align: left;
