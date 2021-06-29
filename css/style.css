@@ -385,12 +385,10 @@ img {
 .choice-item:last-child {
   margin-right: 0px;
 }
-.work {
-  padding-top: 50px;
-}
 .work-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 .work-list a {
   text-decoration: none;
