@@ -61,7 +61,7 @@ img {
   padding-top: 94px;
   margin: 0;
 }
-.head .container{
+.head {
   border-bottom: 10px #ececec;
 }
 
@@ -96,6 +96,8 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
+
+  border-bottom: 1px #ececec;
 }
 .site-nav .item + .item {
   margin-left: 50px;
@@ -304,7 +306,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-
 }
 .team-occupation {
   margin-top: 9.98px;
@@ -319,7 +320,6 @@ img {
   background-color: var(--hero-bgr-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  
 }
 .logo-foot {
   color: var(--hero-text-color);
