@@ -350,13 +350,16 @@ img {
 .contact-form {
 margin-left: 32px;
 }
+.addr li {
+  margin-bottom: 9px;
+}
 .addr .mail {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   letter-spacing: 0.02em;
   text-align: left;
 
-  margin-bottom: 9px;
+ 
   display: block;
 }
 .addr .tel {
