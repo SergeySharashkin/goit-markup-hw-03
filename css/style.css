@@ -303,16 +303,16 @@ img {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
+
+  margin-top: 9.98px;
+  color: var(--tittle-text-color);
 }
 .team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
-.team-occupation {
-  margin-top: 9.98px;
-  color: var(--tittle-text-color);
-}
+
 .team-container {
   padding-top: 29.95px;
   padding-bottom: 29.95px;
