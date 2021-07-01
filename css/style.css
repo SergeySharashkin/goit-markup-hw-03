@@ -17,7 +17,7 @@ html {
 
 body {
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 h1,
@@ -54,7 +54,7 @@ img {
   padding-right: 15px;
   margin: 0 auto;
 
-  text-align: center;
+ 
 }
 .section {
   padding-bottom: 94px;
@@ -62,7 +62,7 @@ img {
   margin: 0;
 }
 .head {
-  border-bottom: 10px #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .accent {
@@ -155,13 +155,15 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  text-align: center;
+}
+.hero-bgr {
+  background-color: var(--hero-bgr-color)
 }
 
 .hero {
-  background-color: var(--hero-bgr-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 .hero-tittle {
   color: var(--hero-text-color);
@@ -273,8 +275,6 @@ img {
 }
 .team {
   background-color: var(--button-bgr-color);
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 .team-tittle {
   font-weight: bold;
@@ -293,6 +293,8 @@ img {
 .team-form {
   margin-right: 30px;
   width: 270px;
+  border: 1px solid var(--hero-text-color);
+  border-radius: 4px;
 }
 .team-form:last-child {
   margin-right: 0px;
@@ -314,12 +316,15 @@ img {
 .team-container {
   padding-top: 29.95px;
   padding-bottom: 29.95px;
+  text-align: center;
+
 }
 /*Footer*/
-.foot {
+.foot-section {
   background-color: var(--hero-bgr-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0;
 }
 .logo-foot {
   color: var(--hero-text-color);
@@ -342,7 +347,9 @@ img {
 .addr p {
   margin-bottom: 9px;
 }
-
+.contact-form {
+margin-left: 32px;
+}
 .addr .mail {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -395,25 +402,31 @@ img {
   text-decoration: none;
   color: var(--primary-text-color);
 }
+.work-container {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+}
 .work-item {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
 }
 .work-form {
-  text-align: left;
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
 }
 .work-form:nth-last-child(3n + 1) {
-  text-align: left;
   margin-right: 0;
 }
 .work-form:nth-last-child(-n + 3) {
-  text-align: left;
   margin-bottom: 0;
 }
 .work-type {
